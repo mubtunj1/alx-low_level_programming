@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main display if the number is postive, negative or 0
- * return: Always 0
+ * main - display if the number is postive, negative or 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -27,3 +27,4 @@ int main(void)
 	}
 
 	return (0);
+}

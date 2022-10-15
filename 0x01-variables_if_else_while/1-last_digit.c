@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main display if the number is postive, negative or 0
- * return: Always 0
+ * main - display if the number is postive, negative or 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (a == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n);
+		printf("Last digit of %d is %d and is 0\n", n, a);
 	}
 	else
 	{

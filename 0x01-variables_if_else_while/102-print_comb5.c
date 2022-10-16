@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - Prints all possible combinations of two two-digit numbers, 
-* ranging from 0-99, separated by a comma followed by a spac.
-* 
-* Return: Always 0. 
+* main - prints all possible combinations of two two-digit numbers
+*
+* Return: Always 0
 */
 int main(void)
 {
@@ -12,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		for (j = 0; j < 100; j++) 
+		for (j = 0; j < 100; j++)
 		{
 			if (i < j)
 			{

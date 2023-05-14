@@ -3,31 +3,29 @@
 /**
  * linear_search - searches for a value in an array of
  * integers using the Linear search algorithm
- * 
- * @array: pointer to the first element of the array
+ *
+ * @array: input array
  * @size: size of the array
- * @value: value to search for
- * 
- * Return: Always ExIT_SUCCESS
+ * @value: value to search in
+ * Return: Always EXIT_SUCCESS
  */
 
 int linear_search(int *array, size_t size, int value)
 {
-	size_t x;
+	size_t num;
 
 	if (array == NULL)
 	{
 		return (-1);
 	}
 
-	for (x = 0; x < size; x++)
+	for (num = 0; num < size; num++)
 	{
-		printf("Value checked array[%li] = [%i]\n", x, array[x]);
-		if (array[x] == value)
+		printf("Value checked array[%li] = [%i]\n", num, array[num]);
+		if (array[num] == value)
 		{
-			return (x);
+			return (num);
 		}
 	}
-
 	return (-1);
 }
